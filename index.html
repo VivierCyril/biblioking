@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Œuvres de Stephen King</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+        }
+        .category {
+            margin-bottom: 20px;
+        }
+        .category h2 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .active {
+            background-color: rgba(128, 128, 128, 0.727);
+            text-decoration: line-through black 1px;
+        }
+    </style>
+</head>
+<body class="container">
+    <h1>Œuvres de Stephen King</h1>
+
+    <script>
+        // Fonction pour afficher les œuvres
+        function afficherOeuvres(oeuvres) {
+            for (const categorie in oeuvres) {
+                let html = `<div class="category">
+                    <h2>${categorie.replace('_', ' ').toUpperCase()}</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Titre Français</th>
+                                <th>Titre Original</th>
+                                <th>Année</th>
+                                <th>Possédé</th>
+                            </tr>
+                        </thead>
+                        <tbody>`;
+
+                oeuvres[categorie].forEach(oeuvre => {
+                    let classe = (oeuvre.possede) ? "active" : '';
+                    html += `<tr class="${classe}">
+                                <td>${oeuvre.titre_fr}</td>
+                                <td>${oeuvre.titre_original}</td>
+                                <td>${oeuvre.annee}</td>
+                                <td><input type="checkbox" ${oeuvre.possede ? 'checked' : ''} onchange="mettreAJourPossession('${categorie}', '${oeuvre.titre_fr}')"></td>
+                            </tr>`;
+                });
+
+                html += `</tbody></table></div>`;
+                document.body.innerHTML += html;
+            }
+        }
+
+        // Fonction pour mettre à jour la possession
+        function mettreAJourPossession(categorie, titre) {
+            fetch('data/stephen_king_oeuvres.json')
+                .then(response => response.json())
+                .then(oeuvres => {
+                    const oeuvre = oeuvres[categorie].find(o => o.titre_fr === titre);
+                    if (oeuvre) {
+                        oeuvre.possede = !oeuvre.possede;
+                        console.log(JSON.stringify(oeuvres, null, 2));
+                    }
+                });
+        }
+
+        // Charger les données depuis le fichier JSON
+        fetch('data/stephen_king_oeuvres.json')
+            .then(response => response.json())
+            .then(oeuvres => {
+                afficherOeuvres(oeuvres);
+            })
+            .catch(error => console.error('Erreur lors du chargement du fichier JSON:', error));
+    </script>
+</body>
+</html>
