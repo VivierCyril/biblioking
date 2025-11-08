@@ -10,7 +10,7 @@
             "titre_fr": "Salem",
             "titre_original": "'Salem's Lot",
             "annee": 1975,
-            "possede": false
+            "possede": true
         },
         {
             "titre_fr": "Shining",
@@ -130,13 +130,13 @@
             "titre_fr": "Revival",
             "titre_original": "Revival",
             "annee": 2014,
-            "possede": false
+            "possede": true
         },
         {
             "titre_fr": "Fin de ronde",
             "titre_original": "End of Watch",
             "annee": 2016,
-            "possede": false
+            "possede": true
         },
         {
             "titre_fr": "Sleeping Beauties",
@@ -334,14 +334,14 @@
             "titre_original": "Herman Wouk Is Still Alive",
             "recueil": "Le Bazar des mauvais rêves",
             "annee": 2015,
-            "possede": false
+            "possede": true
         },
         {
             "titre_fr": "Ur",
             "titre_original": "Ur",
             "recueil": "Le Bazar des mauvais rêves",
             "annee": 2015,
-            "possede": false
+            "possede": true
         },
         {
             "titre_fr": "Le Bon Mari",
@@ -355,7 +355,7 @@
             "titre_original": "The Life of Chuck",
             "recueil": "Si ça saigne",
             "annee": 2020,
-            "possede": false
+            "possede": true
         },
         {
             "titre_fr": "Si ça saigne",
