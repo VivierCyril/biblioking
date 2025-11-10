@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
     <title>Œuvres de Stephen King</title>
     <style>
         body {
@@ -14,34 +16,18 @@
             max-width: 1280px;
             margin: 0 auto;
         }
+
         h1 {
             text-align: center;
         }
-        .category {
-            margin-bottom: 20px;
-        }
-        .category h2 {
-            color: #333;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
 
-        .active {
-            background-color: rgba(128, 128, 128, 0.727);
-            text-decoration: line-through black 1px;
+        .active>* {
+            color: rgb(205.5, 126, 123);
+            text-decoration: line-through;
         }
     </style>
 </head>
+
 <body class="container">
     <h1>Œuvres de Stephen King</h1>
 
@@ -51,8 +37,8 @@
             for (const categorie in oeuvres) {
                 let html = `<div class="category">
                     <h2>${categorie.replace('_', ' ').toUpperCase()}</h2>
-                    <table>
-                        <thead>
+                    <table class="striped" data-theme="dark">
+                        <thead data-theme="light">
                             <tr>
                                 <th>Titre Français</th>
                                 <th>Titre Original</th>
@@ -68,26 +54,15 @@
                                 <td>${oeuvre.titre_fr}</td>
                                 <td>${oeuvre.titre_original}</td>
                                 <td>${oeuvre.annee}</td>
-                                <td><input type="checkbox" ${oeuvre.possede ? 'checked' : ''} onchange="mettreAJourPossession('${categorie}', '${oeuvre.titre_fr}')"></td>
+                                <td><input
+                                    data-id="${oeuvre.id}" 
+                                    type="checkbox" ${oeuvre.possede ? 'checked' : ''} onchange="mettreAJourPossession('${categorie}', '${oeuvre.titre_fr}')"></td>
                             </tr>`;
                 });
 
                 html += `</tbody></table></div>`;
                 document.body.innerHTML += html;
             }
-        }
-
-        // Fonction pour mettre à jour la possession
-        function mettreAJourPossession(categorie, titre) {
-            fetch('data/stephen_king_oeuvres.json')
-                .then(response => response.json())
-                .then(oeuvres => {
-                    const oeuvre = oeuvres[categorie].find(o => o.titre_fr === titre);
-                    if (oeuvre) {
-                        oeuvre.possede = !oeuvre.possede;
-                        console.log(JSON.stringify(oeuvres, null, 2));
-                    }
-                });
         }
 
         // Charger les données depuis le fichier JSON
@@ -97,6 +72,8 @@
                 afficherOeuvres(oeuvres);
             })
             .catch(error => console.error('Erreur lors du chargement du fichier JSON:', error));
+
     </script>
 </body>
+
 </html>
