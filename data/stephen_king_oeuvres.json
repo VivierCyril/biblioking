@@ -1,368 +1,562 @@
 {
-    "romans": [
-        {
-            "titre_fr": "Carrie",
-            "titre_original": "Carrie",
-            "annee": 1974,
-            "possede": true
-        },
-        {
-            "titre_fr": "Salem",
-            "titre_original": "'Salem's Lot",
-            "annee": 1975,
-            "possede": true
-        },
-        {
-            "titre_fr": "Shining",
-            "titre_original": "The Shining",
-            "annee": 1977,
-            "possede": true
-        },
-        {
-            "titre_fr": "La Ligne verte",
-            "titre_original": "The Green Mile",
-            "annee": 1996,
-            "possede": true
-        },
-        {
-            "titre_fr": "Ça",
-            "titre_original": "It",
-            "annee": 1986,
-            "possede": true
-        },
-        {
-            "titre_fr": "Misery",
-            "titre_original": "Misery",
-            "annee": 1987,
-            "possede": true
-        },
-        {
-            "titre_fr": "Les Tommyknockers",
-            "titre_original": "The Tommyknockers",
-            "annee": 1987,
-            "possede": false
-        },
-        {
-            "titre_fr": "Le Fléau",
-            "titre_original": "The Stand",
-            "annee": 1978,
-            "possede": false
-        },
-        {
-            "titre_fr": "Jessie",
-            "titre_original": "Gerald's Game",
-            "annee": 1992,
-            "possede": true
-        },
-        {
-            "titre_fr": "Insomnie",
-            "titre_original": "Insomnia",
-            "annee": 1994,
-            "possede": false
-        },
-        {
-            "titre_fr": "Rose Madder",
-            "titre_original": "Rose Madder",
-            "annee": 1995,
-            "possede": false
-        },
-        {
-            "titre_fr": "Sac d'os",
-            "titre_original": "Bag of Bones",
-            "annee": 1998,
-            "possede": false
-        },
-        {
-            "titre_fr": "La Petite Fille qui aimait Tom Gordon",
-            "titre_original": "The Girl Who Loved Tom Gordon",
-            "annee": 1999,
-            "possede": false
-        },
-        {
-            "titre_fr": "Rêves et Cauchemars",
-            "titre_original": "Dreamcatcher",
-            "annee": 2001,
-            "possede": false
-        },
-        {
-            "titre_fr": "Black House",
-            "titre_original": "Black House",
-            "annee": 2001,
-            "possede": false
-        },
-        {
-            "titre_fr": "Cellulaire",
-            "titre_original": "Cell",
-            "annee": 2006,
-            "possede": false
-        },
-        {
-            "titre_fr": "Duma Key",
-            "titre_original": "Duma Key",
-            "annee": 2008,
-            "possede": true
-        },
-        {
-            "titre_fr": "Sous le Dôme",
-            "titre_original": "Under the Dome",
-            "annee": 2009,
-            "possede": true
-        },
-        {
-            "titre_fr": "22/11/63",
-            "titre_original": "11/22/63",
-            "annee": 2011,
-            "possede": false
-        },
-        {
-            "titre_fr": "Docteur Sleep",
-            "titre_original": "Doctor Sleep",
-            "annee": 2013,
-            "possede": true
-        },
-        {
-            "titre_fr": "Mr. Mercedes",
-            "titre_original": "Mr. Mercedes",
-            "annee": 2014,
-            "possede": true
-        },
-        {
-            "titre_fr": "Revival",
-            "titre_original": "Revival",
-            "annee": 2014,
-            "possede": true
-        },
-        {
-            "titre_fr": "Fin de ronde",
-            "titre_original": "End of Watch",
-            "annee": 2016,
-            "possede": true
-        },
-        {
-            "titre_fr": "Sleeping Beauties",
-            "titre_original": "Sleeping Beauties",
-            "annee": 2017,
-            "possede": false
-        },
-        {
-            "titre_fr": "The Outsider",
-            "titre_original": "The Outsider",
-            "annee": 2018,
-            "possede": true
-        },
-        {
-            "titre_fr": "L'Institut",
-            "titre_original": "The Institute",
-            "annee": 2019,
-            "possede": true
-        },
-        {
-            "titre_fr": "Plus tard",
-            "titre_original": "Later",
-            "annee": 2021,
-            "possede": false
-        },
-        {
-            "titre_fr": "Billy Summers",
-            "titre_original": "Billy Summers",
-            "annee": 2021,
-            "possede": true
-        },
-        {
-            "titre_fr": "Fairy Tale",
-            "titre_original": "Fairy Tale",
-            "annee": 2022,
-            "possede": false
-        },
-        {
-            "titre_fr": "Holly",
-            "titre_original": "Holly",
-            "annee": 2023,
-            "possede": true
-        }
-    ],
-    "recueils_nouvelles": [
-        {
-            "titre_fr": "Danse macabre",
-            "titre_original": "Night Shift",
-            "annee": 1978,
-            "possede": true
-        },
-        {
-            "titre_fr": "Brume",
-            "titre_original": "Skeleton Crew",
-            "annee": 1985,
-            "possede": false
-        },
-        {
-            "titre_fr": "Minuit 2 / Minuit 4",
-            "titre_original": "Nightmares & Dreamscapes",
-            "annee": 1993,
-            "possede": false
-        },
-        {
-            "titre_fr": "Cœurs perdus en Atlantide",
-            "titre_original": "Hearts in Atlantis",
-            "annee": 1999,
-            "possede": false
-        },
-        {
-            "titre_fr": "Tout est fatal",
-            "titre_original": "Everything's Eventual",
-            "annee": 2002,
-            "possede": false
-        },
-        {
-            "titre_fr": "Après le coucher de soleil",
-            "titre_original": "Just After Sunset",
-            "annee": 2008,
-            "possede": false
-        },
-        {
-            "titre_fr": "Le Bazar des mauvais rêves",
-            "titre_original": "The Bazaar of Bad Dreams",
-            "annee": 2015,
-            "possede": true
-        },
-        {
-            "titre_fr": "Si ça saigne",
-            "titre_original": "If It Bleeds",
-            "annee": 2020,
-            "possede": true
-        },
-        {
-            "titre_fr": "Plus noir que noir",
-            "titre_original": "You Like It Darker",
-            "annee": 2025,
-            "possede": true
-        }
-    ],
-    "nouvelles": [
-        {
-            "titre_fr": "La Dernière Marche",
-            "titre_original": "The Last Rung on the Ladder",
-            "recueil": "Danse macabre",
-            "annee": 1978,
-            "possede": false
-        },
-        {
-            "titre_fr": "Parfois ils reviennent",
-            "titre_original": "Sometimes They Come Back",
-            "recueil": "Danse macabre",
-            "annee": 1978,
-            "possede": false
-        },
-        {
-            "titre_fr": "La Nuit des enfants morts-vivants",
-            "titre_original": "Night Surf",
-            "recueil": "Danse macabre",
-            "annee": 1978,
-            "possede": false
-        },
-        {
-            "titre_fr": "La Peau sur la peau",
-            "titre_original": "The Jaunt",
-            "recueil": "Brume",
-            "annee": 1985,
-            "possede": false
-        },
-        {
-            "titre_fr": "La Brume",
-            "titre_original": "The Mist",
-            "recueil": "Brume",
-            "annee": 1985,
-            "possede": false
-        },
-        {
-            "titre_fr": "Le Singe",
-            "titre_original": "The Monkey",
-            "recueil": "Brume",
-            "annee": 1985,
-            "possede": false
-        },
-        {
-            "titre_fr": "La Méthode de respiration",
-            "titre_original": "The Breathing Method",
-            "recueil": "Minuit 2",
-            "annee": 1993,
-            "possede": false
-        },
-        {
-            "titre_fr": "Dolan's Cadillac",
-            "titre_original": "Dolan's Cadillac",
-            "recueil": "Minuit 2",
-            "annee": 1993,
-            "possede": false
-        },
-        {
-            "titre_fr": "1408",
-            "titre_original": "1408",
-            "recueil": "Tout est fatal",
-            "annee": 2002,
-            "possede": false
-        },
-        {
-            "titre_fr": "La Mort de Jack Hamilton",
-            "titre_original": "The Death of Jack Hamilton",
-            "recueil": "Tout est fatal",
-            "annee": 2002,
-            "possede": false
-        },
-        {
-            "titre_fr": "La Buick 8",
-            "titre_original": "From a Buick 8",
-            "recueil": "Tout est fatal",
-            "annee": 2002,
-            "possede": false
-        },
-        {
-            "titre_fr": "La Station",
-            "titre_original": "Stationary Bike",
-            "recueil": "Après le coucher de soleil",
-            "annee": 2008,
-            "possede": false
-        },
-        {
-            "titre_fr": "N.",
-            "titre_original": "N.",
-            "recueil": "Après le coucher de soleil",
-            "annee": 2008,
-            "possede": false
-        },
-        {
-            "titre_fr": "Herman Wouk est toujours en vie",
-            "titre_original": "Herman Wouk Is Still Alive",
-            "recueil": "Le Bazar des mauvais rêves",
-            "annee": 2015,
-            "possede": true
-        },
-        {
-            "titre_fr": "Ur",
-            "titre_original": "Ur",
-            "recueil": "Le Bazar des mauvais rêves",
-            "annee": 2015,
-            "possede": true
-        },
-        {
-            "titre_fr": "Le Bon Mari",
-            "titre_original": "The Good Marriage",
-            "recueil": "Si ça saigne",
-            "annee": 2020,
-            "possede": false
-        },
-        {
-            "titre_fr": "La Vie de Chuck",
-            "titre_original": "The Life of Chuck",
-            "recueil": "Si ça saigne",
-            "annee": 2020,
-            "possede": true
-        },
-        {
-            "titre_fr": "Si ça saigne",
-            "titre_original": "If It Bleeds",
-            "recueil": "Si ça saigne",
-            "annee": 2020,
-            "possede": true
-        }
-    ]
+  "Roman": [
+    {
+      "titre_fr": "Carrie",
+      "titre_original": "Carrie",
+      "annee": 1974,
+      "possede": true
+    },
+    {
+      "titre_fr": "Salem",
+      "titre_original": "Salem's Lot",
+      "annee": 1975,
+      "possede": true
+    },
+    {
+      "titre_fr": "Shining, l'enfant lumière",
+      "titre_original": "The Shining",
+      "annee": 1977,
+      "possede": true
+    },
+    {
+      "titre_fr": "Le Fléau",
+      "titre_original": "The Stand",
+      "annee": 1978,
+      "possede": false
+    },
+    {
+      "titre_fr": "L'Accident / Dead Zone",
+      "titre_original": "The Dead Zone",
+      "annee": 1979,
+      "possede": false
+    },
+    {
+      "titre_fr": "Charlie",
+      "titre_original": "Firestarter",
+      "annee": 1980,
+      "possede": false
+    },
+    {
+      "titre_fr": "Cujo",
+      "titre_original": "Cujo",
+      "annee": 1981,
+      "possede": false
+    },
+    {
+      "titre_fr": "Christine",
+      "titre_original": "Christine",
+      "annee": 1983,
+      "possede": false
+    },
+    {
+      "titre_fr": "L'année du loup-garou",
+      "titre_original": "Cycle of Werewolf",
+      "annee": 1983,
+      "possede": false
+    },
+    {
+      "titre_fr": "Simetierre",
+      "titre_original": "Pet Semetary",
+      "annee": 1983,
+      "possede": true
+    },
+    {
+      "titre_fr": "Les Yeux du dragon",
+      "titre_original": "The Eyes of the Dragon",
+      "annee": 1984,
+      "possede": false
+    },
+    {
+      "titre_fr": "Ça",
+      "titre_original": "It",
+      "annee": 1986,
+      "possede": true
+    },
+    {
+      "titre_fr": "Misery",
+      "titre_original": "Misery",
+      "annee": 1987,
+      "possede": true
+    },
+    {
+      "titre_fr": "Les Tommyknockers",
+      "titre_original": "The Tommyknockers",
+      "annee": 1987,
+      "possede": false
+    },
+    {
+      "titre_fr": "La Part des ténèbres",
+      "titre_original": "The Dark Half",
+      "annee": 1989,
+      "possede": false
+    },
+    {
+      "titre_fr": "Bazaar",
+      "titre_original": "Needful Things",
+      "annee": 1991,
+      "possede": false
+    },
+    {
+      "titre_fr": "Jessie",
+      "titre_original": "Gerald's Game",
+      "annee": 1992,
+      "possede": true
+    },
+    {
+      "titre_fr": "Dolores Claiborne",
+      "titre_original": "Dolores Claiborne",
+      "annee": 1992,
+      "possede": false
+    },
+    {
+      "titre_fr": "Insomnie",
+      "titre_original": "Insomnia",
+      "annee": 1994,
+      "possede": false
+    },
+    {
+      "titre_fr": "Rose Madder",
+      "titre_original": "Rose Madder",
+      "annee": 1995,
+      "possede": false
+    },
+    {
+      "titre_fr": "La Ligne verte",
+      "titre_original": "The Green Mile",
+      "annee": 1996,
+      "possede": true
+    },
+    {
+      "titre_fr": "Désolation",
+      "titre_original": "Desperation",
+      "annee": 1996,
+      "possede": true
+    },
+    {
+      "titre_fr": "Sac d'os",
+      "titre_original": "Bag of Bones",
+      "annee": 1998,
+      "possede": true
+    },
+    {
+      "titre_fr": "La Petite Fille qui aimait Tom Gordon",
+      "titre_original": "The Girl Who Loved Tom Gordon",
+      "annee": 1999,
+      "possede": false
+    },
+    {
+      "titre_fr": "Dreamcatcher",
+      "titre_original": "Dreamcatcher",
+      "annee": 2001,
+      "possede": false
+    },
+    {
+      "titre_fr": "Roadmaster",
+      "titre_original": "From a Buick 8",
+      "annee": 2002,
+      "possede": false
+    },
+    {
+      "titre_fr": "Cellulaire",
+      "titre_original": "Cell",
+      "annee": 2006,
+      "possede": false
+    },
+    {
+      "titre_fr": "Histoire de Lisey",
+      "titre_original": "Lisey's Story",
+      "annee": 2006,
+      "possede": false
+    },
+    {
+      "titre_fr": "Duma Key",
+      "titre_original": "Duma Key",
+      "annee": 2008,
+      "possede": true
+    },
+    {
+      "titre_fr": "Dôme",
+      "titre_original": "Under The Dome",
+      "annee": 2009,
+      "possede": true
+    },
+    {
+      "titre_fr": "23337",
+      "titre_original": "11/22/63",
+      "annee": 2011,
+      "possede": false
+    },
+    {
+      "titre_fr": "Joyland",
+      "titre_original": "Joyland",
+      "annee": 2013,
+      "possede": false
+    },
+    {
+      "titre_fr": "Docteur Sleep",
+      "titre_original": "Doctor Sleep",
+      "annee": 2013,
+      "possede": true
+    },
+    {
+      "titre_fr": "Revival",
+      "titre_original": "Revival",
+      "annee": 2014,
+      "possede": false
+    },
+    {
+      "titre_fr": "L'Outsider",
+      "titre_original": "The Outsider",
+      "annee": 2018,
+      "possede": true
+    },
+    {
+      "titre_fr": "Élévation",
+      "titre_original": "Elevation",
+      "annee": 2018,
+      "possede": false
+    },
+    {
+      "titre_fr": "L'Institut",
+      "titre_original": "The Institute",
+      "annee": 2019,
+      "possede": true
+    },
+    {
+      "titre_fr": "Après",
+      "titre_original": "Later",
+      "annee": 2021,
+      "possede": false
+    },
+    {
+      "titre_fr": "Billy Summers",
+      "titre_original": "Billy Summers",
+      "annee": 2021,
+      "possede": true
+    },
+    {
+      "titre_fr": "Conte de fées",
+      "titre_original": "Fairy Tale",
+      "annee": 2022,
+      "possede": true
+    },
+    {
+      "titre_fr": "Holly",
+      "titre_original": "Holly",
+      "annee": 2023,
+      "possede": true
+    },
+    {
+      "titre_fr": "?",
+      "titre_original": "Never Flinch",
+      "annee": 2025,
+      "possede": false
+    }
+  ],
+  "Richard Bachman": [
+    {
+      "titre_fr": "Rage",
+      "titre_original": "Rage",
+      "annee": 1977,
+      "possede": true
+    },
+    {
+      "titre_fr": "Marche ou crève",
+      "titre_original": "The Long Walk",
+      "annee": 1979,
+      "possede": false
+    },
+    {
+      "titre_fr": "Chantier",
+      "titre_original": "Roadwork",
+      "annee": 1981,
+      "possede": false
+    },
+    {
+      "titre_fr": "Running Man",
+      "titre_original": "The Running Man",
+      "annee": 1982,
+      "possede": false
+    },
+    {
+      "titre_fr": "La Peau sur les os",
+      "titre_original": "Thinner",
+      "annee": 1984,
+      "possede": false
+    },
+    {
+      "titre_fr": "Les Régulateurs",
+      "titre_original": "The Regulators",
+      "annee": 1996,
+      "possede": false
+    },
+    {
+      "titre_fr": "Blaze",
+      "titre_original": "Blaze",
+      "annee": 2007,
+      "possede": false
+    }
+  ],
+  "Recueil de nouvelles": [
+    {
+      "titre_fr": "Danse macabre",
+      "titre_original": "Night Shift",
+      "annee": 1978,
+      "possede": false
+    },
+    {
+      "titre_fr": "Différentes Saisons",
+      "titre_original": "Different Seasons",
+      "annee": 1982,
+      "possede": false
+    },
+    {
+      "titre_fr": "Brume",
+      "titre_original": "Skeleton Crew",
+      "annee": 1987,
+      "possede": false
+    },
+    {
+      "titre_fr": "Minuit 2 et Minuit 4",
+      "titre_original": "Four Past Midnight",
+      "annee": 1990,
+      "possede": false
+    },
+    {
+      "titre_fr": "Rêves et Cauchemars",
+      "titre_original": "Nightmares and Dreamscapes",
+      "annee": 1993,
+      "possede": false
+    },
+    {
+      "titre_fr": "Cœurs perdus en Atlantide",
+      "titre_original": "Hearts in Atlantis",
+      "annee": 1999,
+      "possede": false
+    },
+    {
+      "titre_fr": "Tout est fatal",
+      "titre_original": "Everything's Eventual",
+      "annee": 2002,
+      "possede": false
+    },
+    {
+      "titre_fr": "Juste avant le crépuscule",
+      "titre_original": "Just After Sunset",
+      "annee": 2008,
+      "possede": false
+    },
+    {
+      "titre_fr": "Nuit noire, étoiles mortes",
+      "titre_original": "Full Dark, No Stars",
+      "annee": 2010,
+      "possede": false
+    },
+    {
+      "titre_fr": "Le Bazar des mauvais rêves",
+      "titre_original": "The Bazaar of Bad Dreams",
+      "annee": 2015,
+      "possede": true
+    },
+    {
+      "titre_fr": "Si ça saigne",
+      "titre_original": "If It Bleeds",
+      "annee": 2020,
+      "possede": true
+    },
+    {
+      "titre_fr": "Plus noir que noir",
+      "titre_original": "You Like It Darker",
+      "annee": 2024,
+      "possede": true
+    }
+  ],
+  "Essai": [
+    {
+      "titre_fr": "Anatomie de l'horreur",
+      "titre_original": "Danse macabre",
+      "annee": 1981,
+      "possede": false
+    },
+    {
+      "titre_fr": "Écriture : Mémoires d'un métier",
+      "titre_original": "On Writing : A Memoir of the Craft",
+      "annee": 2000,
+      "possede": false
+    }
+  ],
+  "La Tour Sombre": [
+    {
+      "titre_fr": "Le Pistolero",
+      "titre_original": "The Gunslinger",
+      "annee": 1982,
+      "possede": false
+    },
+    {
+      "titre_fr": "Les Trois Cartes",
+      "titre_original": "The Drawing of the Three",
+      "annee": 1987,
+      "possede": false
+    },
+    {
+      "titre_fr": "Terres perdues",
+      "titre_original": "The Waste Lands",
+      "annee": 1991,
+      "possede": false
+    },
+    {
+      "titre_fr": "Magie et Cristal",
+      "titre_original": "Wizard and Glass",
+      "annee": 1997,
+      "possede": false
+    },
+    {
+      "titre_fr": "Les Loups de la Calla",
+      "titre_original": "Wolves of the Calla",
+      "annee": 2003,
+      "possede": false
+    },
+    {
+      "titre_fr": "Le Chant de Susannah",
+      "titre_original": "Song of Susannah",
+      "annee": 2004,
+      "possede": false
+    },
+    {
+      "titre_fr": "La Tour Sombre",
+      "titre_original": "The Dark Tower",
+      "annee": 2004,
+      "possede": false
+    }
+  ],
+  "Coécrit avec Peter Straub": [
+    {
+      "titre_fr": "Le Talisman",
+      "titre_original": "The Talisman",
+      "annee": 1984,
+      "possede": true
+    },
+    {
+      "titre_fr": "Territoires",
+      "titre_original": "Black House",
+      "annee": 2001,
+      "possede": true
+    }
+  ],
+  "Scénario": [
+    {
+      "titre_fr": "Peur bleue",
+      "titre_original": "Cycle of Werewolf",
+      "annee": 1985,
+      "possede": false
+    },
+    {
+      "titre_fr": "La Tempête du siècle",
+      "titre_original": "Storm of the Century",
+      "annee": 1999,
+      "possede": false
+    }
+  ],
+  "Edition intégrale et révisée par SK": [
+    {
+      "titre_fr": "Le Fléau",
+      "titre_original": "The Stand",
+      "annee": 1990,
+      "possede": false
+    }
+  ],
+  "Roman court": [
+    {
+      "titre_fr": "Colorado Kid",
+      "titre_original": "The Colorado Kid",
+      "annee": 2005,
+      "possede": false
+    }
+  ],
+  "Coécrit avec Joe Hill": [
+    {
+      "titre_fr": "Plein Gaz",
+      "titre_original": "Throttle",
+      "annee": 2009,
+      "possede": false
+    }
+  ],
+  "La Tour Sombre (entre IV et V)": [
+    {
+      "titre_fr": "La Clé des vents",
+      "titre_original": "The Wind Through the Keyhole",
+      "annee": 2012,
+      "possede": false
+    }
+  ],
+  "Livre numérique": [
+    {
+      "titre_fr": "Un visage dans la foule",
+      "titre_original": "A Face in the Crowd",
+      "annee": 2012,
+      "possede": false
+    },
+    {
+      "titre_fr": "Laurie",
+      "titre_original": "Laurie",
+      "annee": 2018,
+      "possede": false
+    }
+  ],
+  "Livre numérique coécrit avec Joe Hill": [
+    {
+      "titre_fr": "Dans les Hautes Herbes",
+      "titre_original": "In The Tall Grass",
+      "annee": 2012,
+      "possede": false
+    }
+  ],
+  "Série Bill Hodges": [
+    {
+      "titre_fr": "Mr Mercedes",
+      "titre_original": "Mr Mercedes",
+      "annee": 2014,
+      "possede": true
+    },
+    {
+      "titre_fr": "Carnets noirs",
+      "titre_original": "Finders Keepers",
+      "annee": 2015,
+      "possede": true
+    },
+    {
+      "titre_fr": "Fin de ronde",
+      "titre_original": "End of Watch",
+      "annee": 2016,
+      "possede": true
+    }
+  ],
+  "Coécrit avec Owen King": [
+    {
+      "titre_fr": "Sleeping Beauties",
+      "titre_original": "Sleeping Beauties",
+      "annee": 2017,
+      "possede": false
+    }
+  ],
+  "Série Gwendy Peterson": [
+    {
+      "titre_fr": "Gwendy et la Boîte à boutons",
+      "titre_original": "Gwendy's Button Box",
+      "annee": 2017,
+      "possede": false
+    },
+    {
+      "titre_fr": "La Plume Magique de Gwendy",
+      "titre_original": "Gwendy's Magic Feather",
+      "annee": 2019,
+      "possede": false
+    },
+    {
+      "titre_fr": "La Dernière Mission de Gwendy",
+      "titre_original": "Gwendy's Final Task",
+      "annee": 2022,
+      "possede": false
+    }
+  ]
 }

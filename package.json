@@ -1,0 +1,23 @@
+{
+  "name": "biblioking",
+  "version": "1.0.0",
+  "description": "Fichier JSON disponible [ici](data/stephen_king_oeuvres.json)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VivierCyril/biblioking.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VivierCyril/biblioking/issues"
+  },
+  "homepage": "https://github.com/VivierCyril/biblioking#readme",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
