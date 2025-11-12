@@ -131,7 +131,7 @@
       "titre_fr": "Insomnie",
       "titre_original": "Insomnia",
       "annee": 1994,
-      "possede": false
+      "possede": true
     },
     {
       "id": 20,
@@ -166,7 +166,7 @@
       "titre_fr": "La Petite Fille qui aimait Tom Gordon",
       "titre_original": "The Girl Who Loved Tom Gordon",
       "annee": 1999,
-      "possede": false
+      "possede": true
     },
     {
       "id": 25,
@@ -212,7 +212,7 @@
     },
     {
       "id": 31,
-      "titre_fr": "23337",
+      "titre_fr": "11/22/63",
       "titre_original": "11/22/63",
       "annee": 2011,
       "possede": false
@@ -222,7 +222,7 @@
       "titre_fr": "Joyland",
       "titre_original": "Joyland",
       "annee": 2013,
-      "possede": false
+      "possede": true
     },
     {
       "id": 33,
@@ -366,7 +366,7 @@
       "titre_fr": "Brume",
       "titre_original": "Skeleton Crew",
       "annee": 1987,
-      "possede": false
+      "possede": true
     },
     {
       "id": 53,
@@ -521,7 +521,7 @@
       "titre_fr": "Peur bleue",
       "titre_original": "Cycle of Werewolf",
       "annee": 1985,
-      "possede": false
+      "possede": true
     },
     {
       "id": 74,
