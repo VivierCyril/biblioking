@@ -40,7 +40,7 @@
       "titre_fr": "Charlie",
       "titre_original": "Firestarter",
       "annee": 1980,
-      "possede": false
+      "possede": true
     },
     {
       "id": 7,
@@ -96,7 +96,7 @@
       "titre_fr": "Les Tommyknockers",
       "titre_original": "The Tommyknockers",
       "annee": 1987,
-      "possede": false
+      "possede": true
     },
     {
       "id": 15,
@@ -173,7 +173,7 @@
       "titre_fr": "Dreamcatcher",
       "titre_original": "Dreamcatcher",
       "annee": 2001,
-      "possede": false
+      "possede": true
     },
     {
       "id": 26,
@@ -308,7 +308,7 @@
       "titre_fr": "Marche ou crève",
       "titre_original": "The Long Walk",
       "annee": 1979,
-      "possede": false
+      "possede": true
     },
     {
       "id": 45,
@@ -322,14 +322,14 @@
       "titre_fr": "Running Man",
       "titre_original": "The Running Man",
       "annee": 1982,
-      "possede": false
+      "possede": true
     },
     {
       "id": 47,
       "titre_fr": "La Peau sur les os",
       "titre_original": "Thinner",
       "annee": 1984,
-      "possede": false
+      "possede": true
     },
     {
       "id": 48,
@@ -387,7 +387,7 @@
       "titre_fr": "Cœurs perdus en Atlantide",
       "titre_original": "Hearts in Atlantis",
       "annee": 1999,
-      "possede": false
+      "possede": true
     },
     {
       "id": 56,
@@ -537,7 +537,7 @@
       "titre_fr": "Le Fléau",
       "titre_original": "The Stand",
       "annee": 1990,
-      "possede": false
+      "possede": true
     }
   ],
   "Roman court": [
