@@ -21,9 +21,18 @@
             text-align: center;
         }
 
+        .titre {
+            font-style: italic;
+        }
+
         .active>* {
             color: rgb(205.5, 126, 123);
             text-decoration: line-through;
+        }
+
+        #totals span,
+        .titre span {
+            padding: 0 20px ;
         }
     </style>
 </head>
@@ -32,7 +41,7 @@
     <h1>Œuvres de Stephen King</h1>
 
     <div id="totals" style="text-align:center; margin-bottom:12px;">
-        Total livres : <strong id="total-count">0</strong> — Possédés : <strong id="owned-count">0</strong>
+        Total livres : <strong id="total-count">0</strong> <span>-</span>  Possédés : <strong id="owned-count">0</strong>
     </div>
 
     <div style="text-align: right;">
@@ -50,7 +59,7 @@
                     <hr>
                     <div class="titre">
                         <h2>${categorie.replace('_', ' ').toUpperCase()}</h2>
-                        <h6>Nombre de livres : <strong>${nombreLivre}</strong> - Nombre de livres possédé : <strong>${possede}</strong></h3>
+                        <h6>Total ${categorie} : <strong>${nombreLivre}</strong> <span>-</span> Possédés : <strong>${possede}</strong></h3>
                             
                     </div>
                     <hr>
