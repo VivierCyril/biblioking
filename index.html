@@ -17,7 +17,7 @@
             margin: 0 auto;
         }
 
-        h1 {
+        h1, .titre{
             text-align: center;
         }
 
@@ -31,14 +31,31 @@
 <body class="container">
     <h1>Œuvres de Stephen King</h1>
 
+    <div id="totals" style="text-align:center; margin-bottom:12px;">
+        Total livres : <strong id="total-count">0</strong> — Possédés : <strong id="owned-count">0</strong>
+    </div>
+
+    <div style="text-align: right;">
+        <button class="outline" id="filter-not-owned">Afficher non possédés</button>
+    </div>
+    <div id="content"></div>
     <script>
         // Fonction pour afficher les œuvres
         function afficherOeuvres(oeuvres) {
+
             for (const categorie in oeuvres) {
+                let possede = oeuvres[categorie].filter(oeuvre => oeuvre.possede).length
+                let nombreLivre = oeuvres[categorie].length
                 let html = `<div class="category">
-                    <h2>${categorie.replace('_', ' ').toUpperCase()}</h2>
+                    <hr>
+                    <div class="titre">
+                        <h2>${categorie.replace('_', ' ').toUpperCase()}</h2>
+                        <h6>Nombre de livres : <strong>${nombreLivre}</strong> - Nombre de livres possédé : <strong>${possede}</strong></h3>
+                            
+                    </div>
+                    <hr>
                     <table class="striped" data-theme="dark">
-                        <thead data-theme="light">
+                        <thead data-theme="dark">
                             <tr>
                                 <th>Titre Français</th>
                                 <th>Titre Original</th>
@@ -48,7 +65,10 @@
                         </thead>
                         <tbody>`;
 
+
+
                 oeuvres[categorie].forEach(oeuvre => {
+
                     let classe = (oeuvre.possede) ? "active" : '';
                     html += `<tr class="${classe}">
                                 <td>${oeuvre.titre_fr}</td>
@@ -56,22 +76,61 @@
                                 <td>${oeuvre.annee}</td>
                                 <td><input
                                     data-id="${oeuvre.id}" 
-                                    type="checkbox" ${oeuvre.possede ? 'checked' : ''} onchange="mettreAJourPossession('${categorie}', '${oeuvre.titre_fr}')"></td>
+                                    type="checkbox" ${oeuvre.possede ? 'checked' : ''}></td>
                             </tr>`;
+
+
                 });
 
                 html += `</tbody></table></div>`;
-                document.body.innerHTML += html;
+                document.getElementById('content').insertAdjacentHTML('beforeend', html);
             }
         }
 
         // Charger les données depuis le fichier JSON
-        fetch('data/stephen_king_oeuvres.json')
+        let rep = fetch('data/stephen_king_oeuvres.json')
             .then(response => response.json())
             .then(oeuvres => {
+                window._oeuvresData = oeuvres;
                 afficherOeuvres(oeuvres);
+                updateTotalsFromData(oeuvres);
             })
             .catch(error => console.error('Erreur lors du chargement du fichier JSON:', error));
+
+        // Mettre à jour les compteurs à partir des données
+        function updateTotalsFromData(oeuvres) {
+            let total = 0;
+            let owned = 0;
+            for (const cat in oeuvres) {
+                total += oeuvres[cat].length;
+                owned += oeuvres[cat].filter(o => Boolean(o.possede)).length;
+            }
+            document.getElementById('total-count').textContent = total;
+            document.getElementById('owned-count').textContent = owned;
+        }
+
+        // Filtre pour n'afficher que les œuvres non possédées
+        const filterBtn = document.getElementById('filter-not-owned');
+        let filterActive = false;
+
+        function applyFilter() {
+            const checkboxes = document.querySelectorAll('table tbody input[type="checkbox"]');
+            checkboxes.forEach(cb => {
+                const tr = cb.closest('tr');
+                if (!tr) return;
+                if (filterActive) {
+                    tr.style.display = cb.checked ? 'none' : '';
+                } else {
+                    tr.style.display = '';
+                }
+            });
+        }
+
+        filterBtn.addEventListener('click', () => {
+            filterActive = !filterActive;
+            filterBtn.textContent = filterActive ? 'Afficher tout' : 'Afficher non possédés';
+            applyFilter();
+        });
 
     </script>
 </body>
