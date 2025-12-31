@@ -26,7 +26,7 @@
       "titre_fr": "Le Fléau",
       "titre_original": "The Stand",
       "annee": 1978,
-      "possede": false
+      "possede": true
     },
     {
       "id": 5,
@@ -75,7 +75,7 @@
       "titre_fr": "Les Yeux du dragon",
       "titre_original": "The Eyes of the Dragon",
       "annee": 1984,
-      "possede": false
+      "possede": true
     },
     {
       "id": 12,
@@ -103,7 +103,7 @@
       "titre_fr": "La Part des ténèbres",
       "titre_original": "The Dark Half",
       "annee": 1989,
-      "possede": false
+      "possede": true
     },
     {
       "id": 16,
@@ -236,7 +236,7 @@
       "titre_fr": "Revival",
       "titre_original": "Revival",
       "annee": 2014,
-      "possede": false
+      "possede": true
     },
     {
       "id": 35,
@@ -264,7 +264,7 @@
       "titre_fr": "Après",
       "titre_original": "Later",
       "annee": 2021,
-      "possede": false
+      "possede": true
     },
     {
       "id": 39,
@@ -537,7 +537,7 @@
       "titre_fr": "Le Fléau",
       "titre_original": "The Stand",
       "annee": 1990,
-      "possede": true
+      "possede": false
     }
   ],
   "Roman court": [
