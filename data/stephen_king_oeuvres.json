@@ -315,7 +315,7 @@
       "titre_fr": "Chantier",
       "titre_original": "Roadwork",
       "annee": 1981,
-      "possede": false
+      "possede": true
     },
     {
       "id": 46,
@@ -336,7 +336,7 @@
       "titre_fr": "Les Régulateurs",
       "titre_original": "The Regulators",
       "annee": 1996,
-      "possede": false
+      "possede": true
     },
     {
       "id": 49,
