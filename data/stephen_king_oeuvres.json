@@ -239,13 +239,6 @@
       "possede": true
     },
     {
-      "id": 35,
-      "titre_fr": "L'Outsider",
-      "titre_original": "The Outsider",
-      "annee": 2018,
-      "possede": true
-    },
-    {
       "id": 36,
       "titre_fr": "Élévation",
       "titre_original": "Elevation",
@@ -278,6 +271,22 @@
       "titre_fr": "Conte de fées",
       "titre_original": "Fairy Tale",
       "annee": 2022,
+      "possede": true
+    }
+  ],
+  "Série avec Holly Gibney": [
+    {
+      "id": 35,
+      "titre_fr": "L'Outsider",
+      "titre_original": "The Outsider",
+      "annee": 2018,
+      "possede": true
+    },
+    {
+      "id": 60,
+      "titre_fr": "Si ça saigne",
+      "titre_original": "If It Bleeds",
+      "annee": 2020,
       "possede": true
     },
     {
@@ -415,13 +424,6 @@
       "titre_fr": "Le Bazar des mauvais rêves",
       "titre_original": "The Bazaar of Bad Dreams",
       "annee": 2015,
-      "possede": true
-    },
-    {
-      "id": 60,
-      "titre_fr": "Si ça saigne",
-      "titre_original": "If It Bleeds",
-      "annee": 2020,
       "possede": true
     },
     {
