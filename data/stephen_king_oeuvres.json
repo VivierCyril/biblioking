@@ -456,49 +456,49 @@
       "titre_fr": "Le Pistolero",
       "titre_original": "The Gunslinger",
       "annee": 1982,
-      "possede": false
+      "possede": true
     },
     {
       "id": 65,
       "titre_fr": "Les Trois Cartes",
       "titre_original": "The Drawing of the Three",
       "annee": 1987,
-      "possede": false
+      "possede": true
     },
     {
       "id": 66,
       "titre_fr": "Terres perdues",
       "titre_original": "The Waste Lands",
       "annee": 1991,
-      "possede": false
+      "possede": true
     },
     {
       "id": 67,
       "titre_fr": "Magie et Cristal",
       "titre_original": "Wizard and Glass",
       "annee": 1997,
-      "possede": false
+      "possede": true
     },
     {
       "id": 68,
       "titre_fr": "Les Loups de la Calla",
       "titre_original": "Wolves of the Calla",
       "annee": 2003,
-      "possede": false
+      "possede": true
     },
     {
       "id": 69,
       "titre_fr": "Le Chant de Susannah",
       "titre_original": "Song of Susannah",
       "annee": 2004,
-      "possede": false
+      "possede": true
     },
     {
       "id": 70,
       "titre_fr": "La Tour Sombre",
       "titre_original": "The Dark Tower",
       "annee": 2004,
-      "possede": false
+      "possede": true
     }
   ],
   "Coécrit avec Peter Straub": [
