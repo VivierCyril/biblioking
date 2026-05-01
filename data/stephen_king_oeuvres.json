@@ -499,6 +499,13 @@
       "titre_original": "The Dark Tower",
       "annee": 2004,
       "possede": true
+    },
+    {
+      "id": 78,
+      "titre_fr": "La Clé des vents",
+      "titre_original": "The Wind Through the Keyhole",
+      "annee": 2012,
+      "possede": true
     }
   ],
   "Coécrit avec Peter Straub": [
@@ -558,15 +565,6 @@
       "titre_original": "Throttle",
       "annee": 2009,
       "possede": false
-    }
-  ],
-  "La Tour Sombre (entre IV et V)": [
-    {
-      "id": 78,
-      "titre_fr": "La Clé des vents",
-      "titre_original": "The Wind Through the Keyhole",
-      "annee": 2012,
-      "possede": true
     }
   ],
   "Livre numérique": [
