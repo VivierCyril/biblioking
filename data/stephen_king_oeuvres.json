@@ -33,7 +33,7 @@
       "titre_fr": "L'Accident / Dead Zone",
       "titre_original": "The Dead Zone",
       "annee": 1979,
-      "possede": false
+      "possede": true
     },
     {
       "id": 6,
@@ -301,7 +301,7 @@
       "titre_fr": "Ne jamais trembler",
       "titre_original": "Never Flinch",
       "annee": 2025,
-      "possede": false
+      "possede": true
     }
   ],
   "Richard Bachman": [
@@ -566,7 +566,7 @@
       "titre_fr": "La Clé des vents",
       "titre_original": "The Wind Through the Keyhole",
       "annee": 2012,
-      "possede": false
+      "possede": true
     }
   ],
   "Livre numérique": [
